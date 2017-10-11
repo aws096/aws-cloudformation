@@ -268,6 +268,10 @@ The following is an example of a playbook configured to use this role.  Note the
 
 ## Release Notes
 
+### Version 2.4.0
+
+- **BREAKING CHANGE** : Compatibility fixes for Ansible 2.4.x
+
 ### Version 0.9.4
 
 - **BUG FIX** : Removed jinja references to Stack.Name in template s3.yml.j2 since it is redundant and susceptible to breakage `./templates/s3.yml/j2`
